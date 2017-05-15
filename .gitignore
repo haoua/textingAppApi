@@ -3,7 +3,7 @@ node_modules/
 /nbproject/
 private/*
 !private/*.dist.js
-/SecureSMSAPI/node_modules/
-/SecureSMSAPI/private/*
-/SecureSMSAPI/!private/*.dist.js
+SecureSMSAPI/node_modules/
+SecureSMSAPI/private/*
+SecureSMSAPI/!private/*.dist.js
 SecureSMSAPI/nbproject/
