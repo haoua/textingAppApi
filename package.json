@@ -1,0 +1,22 @@
+{
+  "name": "securesmsapi",
+  "version": "1.0.0",
+  "description": "Powerful API Rest NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haoua/textingAppApi.git"
+  },
+  "author": "Mambot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haoua/textingAppApi/issues"
+  },
+  "homepage": "https://github.com/haoua/textingAppApi#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
