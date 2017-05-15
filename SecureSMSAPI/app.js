@@ -1,14 +1,21 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('serve-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
+var express         = require('express'),
+    app             = express(),
+    path            = require('path'),
+    favicon         = require('serve-favicon'),
+    logger          = require('morgan'),
+    cookieParser    = require('cookie-parser'),
+    bodyParser      = require('body-parser'),
+    cors            = require('cors'),
+    index           = require('./routes/index'),
+    users           = require('./routes/users'),
+    messages        = require('./routes/messages'),
+    config          = require('./private/config');
 
-var index = require('./routes/index');
-var users = require('./routes/users');
 
-var app = express();
+var corsOptions = { origin : "http://192.168.43.104:4400" };
+app.use(cors(corsOptions));
+
+app.set('config', config);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
