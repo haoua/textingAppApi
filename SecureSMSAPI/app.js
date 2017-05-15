@@ -12,7 +12,7 @@ var express         = require('express'),
     config          = require('./private/config');
 
 
-var corsOptions = { origin : "http://192.168.43.104:4400" };
+var corsOptions = { origin : "http://127.0.0.1:3000" };
 app.use(cors(corsOptions));
 
 app.set('config', config);

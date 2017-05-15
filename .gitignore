@@ -1,7 +1,12 @@
 .idea/
 node_modules/
 /nbproject/
+private/config.js
+private/configDB.js
 !private/*.dist.js
+
 SecureSMSAPI/node_modules/
 SecureSMSAPI/!private/*.dist.js
 SecureSMSAPI/nbproject/
+SecureSMSAPI/private/config.js
+SecoreSMSAPI/private/configDB.js
